@@ -1,0 +1,27 @@
+table{
+	width:30%;
+}
+
+table, th, td {
+    border: 2px solid black;
+    max-width: 400px;
+}
+td {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold; 
+    background-color: rgb(90,90,90);   
+}
+
+tr th{
+	height: 80px;
+	background-color: rgb(200,200,200);
+
+}
+
+button{
+
+	width: 95px;
+	height:50px;
+	border: 1px solid black;
+}

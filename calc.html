@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-Us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Calculator">
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div class= "main">
+      <table>
+        <tr>
+          <th id="result" colspan="4" palceholder="Output"></th>
+        </tr>
+        
+        <tr>
+      	  <td><button id="one" value="1" onclick="dispFunc('one')">1</button></td>
+      	  <td><button id="two" value="2" onclick="dispFunc('two')">2</button></td>
+      	  <td><button id="three" value="3" onclick="dispFunc('three')">3</button></td>
+      	  <td><button id="div" value="/" onclick="dispFunc('div')">/</button></td>
+      	</tr><tr>
+      	  <td><button id="four" value="4" onclick="dispFunc('four')">4</button></td>
+      	  <td><button id="five" value="5" onclick="dispFunc('five')">5</button></td>
+      	  <td><button id="six" value="6" onclick="dispFunc('six')">6</button></td>
+      	  <td><button id="mul" value="*" onclick="dispFunc('mul')">*</button></td>
+      	</tr><tr>
+      	  <td><button id="seven" value="7" onclick="dispFunc('seven')">7</button></td>
+      	  <td><button id="eight" value="8" onclick="dispFunc('eight')">8</button></td>
+      	  <td><button id="nine" value="9" onclick="dispFunc('nine')">9</button></td>
+      	  <td><button id="sub" value="-" onclick="dispFunc('sub')">-</button></td>
+        </tr><tr>
+      	  <td><button id="zero" value="0" onclick="dispFunc('zero')">0</button></td>
+      	  <td><button id="dot" value="." onclick="dispFunc('dot')">.</button></td>
+      	  <td><button id="add" value="+" onclick="dispFunc('add')">+</button></td>
+      	  <td><button id="eql" value="=" onclick="calcFunc()">=</button></td>
+        </tr>
+        
+      </table>
+    </div>
+  </body>
+</html>
